@@ -1,0 +1,49 @@
+$orange-900: #ff6838;
+$orange-700: #ff7a50;
+$silver-200: #ececec;
+$silver-100: #f9faff;
+$gray: #c2c2c2;
+$gray-2: #c1c1c1;
+$lightgray: #505050;
+$dark-blue900: #363853;
+$dark: #31352b;
+$light: #fff2ed;
+$white: #fff;
+$blue: #00aaff;
+$red: #ff2222;
+$black: #000;
+
+$breakpoints: ("phone": 560px,
+  "tablet": 768px,
+  "tablet-2": 992px,
+  "desktop": 1230px);
+
+%rubik-300 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+}
+
+%rubik-400 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+
+%rubik-italic {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+%rubik-500 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+}
+
+%inputhide {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  margin-left: -300px;
+}
